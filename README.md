@@ -13,3 +13,6 @@ Esse repositório reúne todos os exercícios, testes e projetos que fiz durante
 - [x] Uso de seletores CSS, classes e IDs para estilização mais modular e organizada;
 - [x] Entendimento do modelo de caixas (box model), margin, padding, border;
 - [x] Estruturação de layouts mais organizados, com atenção à estética e responsividade básica (preparar pra diferentes tamanhos de tela, mesmo que simples).
+
+## `Certificado:`
+[Certificado.pdf](https://github.com/user-attachments/files/23941253/certificado.-.curso.html5.e.css3.pdf).
