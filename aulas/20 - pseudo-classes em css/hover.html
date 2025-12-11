@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        div {
+            width: 130px;
+        }
+
+        div:hover {
+            color: crimson;
+            /*quando passar o mouse em cima muda a cor para vermelho*/
+        }
+
+        div > p {
+            display: none;
+            /*parte que configura para o p não aparecer*/
+        }
+
+        div:hover > p {
+            display: block;
+            color: aliceblue;
+            background-color: crimson;
+            width: 105px;
+            /*parte que configura para quando passar o mouse por cima, aparecer o texto ocultado (p)*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>passe o mouse sobre o texto abaixo</p>
+
+    <div>passe o mouse aqui
+        <p>texto escondido</p>
+    </div>
+
+    <p>fim do exemplo</p>
+</body>
+</html>

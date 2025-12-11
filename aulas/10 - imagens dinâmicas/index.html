@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/300x300.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/700x700.png" type="image/png">
+        <img src="imagens/1000x1000.jpg" alt="imagem grande">
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir audio em HTML5</p>
+    <audio src="mídia/podprogramar-012-ead.mp3" controls autoplay></audio> <!--Formas compátiveis: MP3, WAV e OGG-->
+
+    <audio preload="metadata" autoplay controls loop>
+        <source src="mídia/podprogramar-012-ead.mp3" type="audio/mpeg">
+        <source src="mídia/podprogramar-012-ead.ogg" type="audio/ogg">
+        <source src="mídia/podprogramar-012-ead.wav" type="audio/wav">
+
+        <p>Infelizmente seu navegador não consegue reproduzir audio. <a href="mídia/podprogramar-012-ead.mp3">clique aqui para baixar o arquivo MP3</a></p>
+    </audio> <!--Outra forma de adicionar audio-->
+</body>
+</html>
